@@ -230,7 +230,7 @@ nav ul li a {
 .menu-item h4 {
     color: #1abc9c;
     margin-bottom: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
     font-weight: 500;
     letter-spacing: 0.5px;
     font-size: clamp(0.9rem, 2vw, 1.1rem);
