@@ -692,11 +692,76 @@ nav ul li a {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    font-size: 18px;
+    font-size: 9px;
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif;
     z-index: 1000;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 4px;
+}
+
+.cold-drinks-redesign {
+    background: #111;
+    color: #eee;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+.cold-drinks-redesign h3 {
+    font-size: 2.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #eaeaea;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+.cold-drinks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.cold-drinks-list li {
+    font-size: 2rem;
+    color: #eaeaea;
+    margin-bottom: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.cold-drinks-list .cold-price {
+    color: #ccc;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+.milkshakes-link {
+    color: #eaeaea;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}
+.milkshakes-link:hover {
+    color: #1abc9c;
+}
+.milkshakes-options {
+    margin-top: 0.7rem;
+    margin-left: 1.5rem;
+    background: #181818;
+    border-radius: 8px;
+    padding: 0.7rem 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    list-style: disc inside;
+}
+.milkshakes-options li {
+    margin-bottom: 0.5rem;
+}
+.milkshakes-options li:last-child {
+    margin-bottom: 0;
 } 

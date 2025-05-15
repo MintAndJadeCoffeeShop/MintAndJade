@@ -129,4 +129,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
+
+    // Milkshakes submenu toggle
+    const milkshakesLink = document.getElementById('milkshakes-link');
+    const milkshakesOptions = document.getElementById('milkshakes-options');
+    if (milkshakesLink && milkshakesOptions) {
+        milkshakesLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (milkshakesOptions.style.display === 'none' || milkshakesOptions.style.display === '') {
+                milkshakesOptions.style.display = 'block';
+            } else {
+                milkshakesOptions.style.display = 'none';
+            }
+        });
+    }
 }); 
