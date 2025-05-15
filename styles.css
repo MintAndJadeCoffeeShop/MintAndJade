@@ -702,65 +702,69 @@ nav ul li a {
 }
 
 .cold-drinks-redesign {
-    background: #111;
-    color: #eee;
-    border-radius: 12px;
+    background: #fff;
+    color: #222;
+    border-radius: 16px;
     padding: 2.5rem 2rem;
     margin-bottom: 2rem;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 16px rgba(44, 62, 80, 0.08);
+    font-family: 'Playfair Display', serif;
 }
 .cold-drinks-redesign h3 {
-    font-size: 2.8rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    color: #eaeaea;
+    font-size: 2.2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #1abc9c;
     margin-bottom: 1.5rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 .cold-drinks-list {
-    list-style: none;
+    list-style: disc inside;
     padding: 0;
     margin: 0;
 }
 .cold-drinks-list li {
-    font-size: 2rem;
-    color: #eaeaea;
-    margin-bottom: 1.1rem;
+    font-size: 1.15rem;
+    color: #222;
+    margin-bottom: 0.7rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    display: flex;
+    display: list-item;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 .cold-drinks-list .cold-price {
-    color: #ccc;
-    font-size: 1.7rem;
+    color: #222;
+    font-size: 1.15rem;
     font-weight: 400;
-    margin-left: 0.5rem;
+    margin-left: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 .milkshakes-link {
-    color: #eaeaea;
+    color: #0074d9;
     text-decoration: underline;
     cursor: pointer;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 .milkshakes-link:hover {
     color: #1abc9c;
 }
 .milkshakes-options {
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
     margin-left: 1.5rem;
-    background: #181818;
+    background: #f8f9fa;
     border-radius: 8px;
-    padding: 0.7rem 1.2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    color: #fff;
-    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.04);
+    color: #222;
+    font-size: 1rem;
     font-weight: 400;
     list-style: disc inside;
+    font-family: 'Montserrat', sans-serif;
 }
 .milkshakes-options li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 .milkshakes-options li:last-child {
     margin-bottom: 0;
