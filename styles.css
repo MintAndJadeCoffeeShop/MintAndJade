@@ -701,35 +701,13 @@ nav ul li a {
     border-radius: 4px;
 }
 
-.milkshakes-link {
-    color: #1abc9c !important;
-    text-decoration: underline;
-    cursor: pointer;
-    font-weight: 500;
+.milkshakes-flavors-note {
+    font-size: 0.95rem;
+    color: #888;
+    font-style: italic;
+    margin-left: 1.5rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
-    transition: color 0.2s;
-}
-.milkshakes-link:hover {
-    color: #16a085 !important;
-}
-.milkshakes-options {
-    margin-top: 0.5rem;
-    margin-left: 0;
-    background: #fff;
-    border-radius: 12px;
-    padding: 1rem 1.5rem;
-    box-shadow: 0 3px 16px rgba(44, 62, 80, 0.08);
-    color: #1abc9c;
-    font-size: 1.1rem;
-    font-weight: 500;
-    list-style: disc inside;
-    font-family: 'Montserrat', sans-serif;
-    position: static;
-    min-width: 180px;
-}
-.milkshakes-options li {
-    margin-bottom: 0.5rem;
-}
-.milkshakes-options li:last-child {
-    margin-bottom: 0;
+    letter-spacing: 0.2px;
 } 
