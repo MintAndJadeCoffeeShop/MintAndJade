@@ -210,6 +210,7 @@ nav ul li a {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 .menu-item {
